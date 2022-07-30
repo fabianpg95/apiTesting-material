@@ -1,0 +1,105 @@
+# Project information
+site_name: API Testing Material
+site_url: https://github.com/fabianpg95/istqb-material
+
+# Repository
+repo_name: apiTesting-material
+repo_url: https://github.com/fabianpg95/apiTesting-material
+
+# Page tree
+nav:
+    - Home:
+      - 'Index': 'index.md'    
+    - Fundamentals:
+      - 'Introduction': 'Fundamentals/introduction.md'
+      - 'History API': 'Fundamentals/history.md'
+      - 'REST': 'Fundamentals/rest.md'
+      - 'HTTP methods': 'Fundamentals/http-methods.md' 
+      - 'Status Codes': 'Fundamentals/status-codes.md' 
+      - 'API Test tools': 'Fundamentals/api-tools-types.md' 
+
+    - Postman:
+      - 'Collections & Env vars': 'Postman/collect-envvars.md'
+      - 'Headers': 'Postman/headers.md' 
+      - 'Body': 'Postman/body.md' 
+      - 'Authentication': 'Postman/authentication.md'
+      - 'Test Scripts': 'Postman/test-scripts.md' 
+      - 'Tokens': 'Postman/tokens.md' 
+      - 'cURL': 'Postman/curl.md'
+      - 'Monitors': 'Postman/monitors.md' 
+      - 'API Doc': 'Postman/api-doc.md' 
+      - 'Demo': 'Postman/demo.md' 
+      - 'Tricks and Tips': 'Postman/tricks/tips.md' 
+  
+    - Authn & Authz:
+      - 'Authz types': 'Auth-Authz/authz-types.md'
+      - 'OIDC': 'Auth-Authz/oidc.md'
+      - 'SAML': 'Auth-Authz/saml.md'
+      - 'CORS': 'Auth-Authz/cors.md'
+
+    - Swagger:
+      - 'Swagger': 'Swagger/swagger.md'
+
+    - Automation Tools:
+      - 'Automation Tools': 'Aut-Tools/aut-types.md'
+
+# Configurations
+theme:
+  name: "material"
+  language: "en"
+
+  # Configuration
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+  font:
+    text: "Roboto"
+  favicon: images/favicon.png
+  icon:
+    repo: fontawesome/brands/git-alt
+  feature:
+    tabs: true
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - search.suggest
+    - search.highlight
+    - header.autohide
+    - toc.autohide
+    - content.code.annotate
+  extra:
+    version:
+      method: mike
+
+# Plugins
+plugins:
+  - search
+  - git-revision-date
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.details
+  - attr_list
+  - def_list
+  - pymdownx.tabbed
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+
