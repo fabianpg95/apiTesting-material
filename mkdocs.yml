@@ -8,8 +8,6 @@ repo_url: https://github.com/fabianpg95/apiTesting-material
 
 # Page tree
 nav:
-    - Home:
-      - 'Index': 'index.md'    
     - Fundamentals:
       - 'Introduction': 'Fundamentals/introduction.md'
       - 'History API': 'Fundamentals/history.md'
@@ -29,7 +27,7 @@ nav:
       - 'Monitors': 'Postman/monitors.md' 
       - 'API Doc': 'Postman/api-doc.md' 
       - 'Demo': 'Postman/demo.md' 
-      - 'Tricks and Tips': 'Postman/tricks/tips.md' 
+      - 'Tricks and Tips': 'Postman/tricks-tips.md' 
   
     - Authn & Authz:
       - 'Authz types': 'Auth-Authz/authz-types.md'
@@ -38,7 +36,7 @@ nav:
       - 'CORS': 'Auth-Authz/cors.md'
 
     - Swagger:
-      - 'Swagger': 'Swagger/swagger.md'
+      - 'Swagger': 'API-Docum/swagger.md'
 
     - Automation Tools:
       - 'Automation Tools': 'Aut-Tools/aut-types.md'
