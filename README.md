@@ -2,7 +2,7 @@
 
   <h1 align="center">API testing Documentation</>
 
-## [**- API documentation**](https://github.com/fabianpg95/apiTesting-material)
+# [**Documentation**](https://fabianpg95.github.io/apiTesting-material/Fundamentals/introduction/)
 
 ___
 <!-- ABOUT THE PROJECT -->
