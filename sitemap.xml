@@ -1,122 +1,122 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://github.com/fabianpg95/istqb-material/API-Docum/swagger/</loc>
+         <loc>https://github.com/fabianpg95/apiTesting-material/API-Docum/swagger/</loc>
          <lastmod>2022-07-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://github.com/fabianpg95/istqb-material/Aut-Tools/aut-types/</loc>
+         <loc>https://github.com/fabianpg95/apiTesting-material/Aut-Tools/aut-types/</loc>
          <lastmod>2022-07-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://github.com/fabianpg95/istqb-material/Auth-Authz/authz-types/</loc>
+         <loc>https://github.com/fabianpg95/apiTesting-material/Auth-Authz/authz-types/</loc>
          <lastmod>2022-07-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://github.com/fabianpg95/istqb-material/Auth-Authz/cors/</loc>
+         <loc>https://github.com/fabianpg95/apiTesting-material/Auth-Authz/cors/</loc>
          <lastmod>2022-07-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://github.com/fabianpg95/istqb-material/Auth-Authz/oidc/</loc>
+         <loc>https://github.com/fabianpg95/apiTesting-material/Auth-Authz/oidc/</loc>
          <lastmod>2022-07-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://github.com/fabianpg95/istqb-material/Auth-Authz/saml/</loc>
+         <loc>https://github.com/fabianpg95/apiTesting-material/Auth-Authz/saml/</loc>
          <lastmod>2022-07-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://github.com/fabianpg95/istqb-material/Fundamentals/api-tools-types/</loc>
+         <loc>https://github.com/fabianpg95/apiTesting-material/Fundamentals/api-tools-types/</loc>
          <lastmod>2022-07-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://github.com/fabianpg95/istqb-material/Fundamentals/history/</loc>
+         <loc>https://github.com/fabianpg95/apiTesting-material/Fundamentals/history/</loc>
          <lastmod>2022-07-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://github.com/fabianpg95/istqb-material/Fundamentals/http-methods/</loc>
+         <loc>https://github.com/fabianpg95/apiTesting-material/Fundamentals/http-methods/</loc>
          <lastmod>2022-07-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://github.com/fabianpg95/istqb-material/Fundamentals/introduction/</loc>
+         <loc>https://github.com/fabianpg95/apiTesting-material/Fundamentals/introduction/</loc>
          <lastmod>2022-07-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://github.com/fabianpg95/istqb-material/Fundamentals/rest/</loc>
+         <loc>https://github.com/fabianpg95/apiTesting-material/Fundamentals/rest/</loc>
          <lastmod>2022-07-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://github.com/fabianpg95/istqb-material/Fundamentals/status-codes/</loc>
+         <loc>https://github.com/fabianpg95/apiTesting-material/Fundamentals/status-codes/</loc>
          <lastmod>2022-07-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://github.com/fabianpg95/istqb-material/Postman/api-doc/</loc>
+         <loc>https://github.com/fabianpg95/apiTesting-material/Postman/api-doc/</loc>
          <lastmod>2022-07-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://github.com/fabianpg95/istqb-material/Postman/authentication/</loc>
+         <loc>https://github.com/fabianpg95/apiTesting-material/Postman/authentication/</loc>
          <lastmod>2022-07-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://github.com/fabianpg95/istqb-material/Postman/body/</loc>
+         <loc>https://github.com/fabianpg95/apiTesting-material/Postman/body/</loc>
          <lastmod>2022-07-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://github.com/fabianpg95/istqb-material/Postman/collect-envvars/</loc>
+         <loc>https://github.com/fabianpg95/apiTesting-material/Postman/collect-envvars/</loc>
          <lastmod>2022-07-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://github.com/fabianpg95/istqb-material/Postman/curl/</loc>
+         <loc>https://github.com/fabianpg95/apiTesting-material/Postman/curl/</loc>
          <lastmod>2022-07-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://github.com/fabianpg95/istqb-material/Postman/demo/</loc>
+         <loc>https://github.com/fabianpg95/apiTesting-material/Postman/demo/</loc>
          <lastmod>2022-07-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://github.com/fabianpg95/istqb-material/Postman/headers/</loc>
+         <loc>https://github.com/fabianpg95/apiTesting-material/Postman/headers/</loc>
          <lastmod>2022-07-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://github.com/fabianpg95/istqb-material/Postman/monitors/</loc>
+         <loc>https://github.com/fabianpg95/apiTesting-material/Postman/monitors/</loc>
          <lastmod>2022-07-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://github.com/fabianpg95/istqb-material/Postman/newman/</loc>
+         <loc>https://github.com/fabianpg95/apiTesting-material/Postman/newman/</loc>
          <lastmod>2022-07-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://github.com/fabianpg95/istqb-material/Postman/test-scripts/</loc>
+         <loc>https://github.com/fabianpg95/apiTesting-material/Postman/test-scripts/</loc>
          <lastmod>2022-07-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://github.com/fabianpg95/istqb-material/Postman/tokens/</loc>
+         <loc>https://github.com/fabianpg95/apiTesting-material/Postman/tokens/</loc>
          <lastmod>2022-07-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://github.com/fabianpg95/istqb-material/Postman/tricks-tips/</loc>
+         <loc>https://github.com/fabianpg95/apiTesting-material/Postman/tricks-tips/</loc>
          <lastmod>2022-07-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
