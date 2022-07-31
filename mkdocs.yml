@@ -10,36 +10,46 @@ repo_url: https://github.com/fabianpg95/apiTesting-material
 nav:
     - Fundamentals:
       - 'Introduction': 'Fundamentals/introduction.md'
-      - 'History API': 'Fundamentals/history.md'
+      - 'Portocols API': 'Fundamentals/history.md'
       - 'REST': 'Fundamentals/rest.md'
       - 'HTTP methods': 'Fundamentals/http-methods.md' 
       - 'Status Codes': 'Fundamentals/status-codes.md' 
-      - 'API Test tools': 'Fundamentals/api-tools-types.md' 
+      - 'API Tester - considerations': 'Fundamentals/api-test-cons.md' 
 
     - Postman:
       - 'Collections & Env vars': 'Postman/collect-envvars.md'
       - 'Headers': 'Postman/headers.md' 
       - 'Body': 'Postman/body.md' 
-      - 'Authentication': 'Postman/authentication.md'
+      - 'Authorization': 'Postman/authorization.md'
       - 'Test Scripts': 'Postman/test-scripts.md' 
       - 'Tokens': 'Postman/tokens.md' 
       - 'cURL': 'Postman/curl.md'
       - 'Monitors': 'Postman/monitors.md' 
+      - 'Newman CLI': 'Postman/newman.md' 
       - 'API Doc': 'Postman/api-doc.md' 
-      - 'Demo': 'Postman/demo.md' 
-      - 'Tricks and Tips': 'Postman/tricks-tips.md' 
   
     - Authn & Authz:
-      - 'Authz types': 'Auth-Authz/authz-types.md'
-      - 'OIDC': 'Auth-Authz/oidc.md'
+      - 'Authn vs Authz': 'Auth-Authz/authn-authz.md'
+      - Authn:
+        - 'Authn Intro': 'Auth-Authz/Authn/authn.md'
+        - 'Authn Methods': 'Auth-Authz/Authn/authn-methods.md'
+      #  - 'Authn considerations': 'Authn/authn-consid.md'
+      - Authz:
+        - 'Authz Intro': 'Auth-Authz/Authz/authz.md'
+        - 'Authz Methods': 'Auth-Authz/Authz/authz-methods.md'
+      #  - 'Authz considerations': 'Authn/authz-consid.md'
       - 'SAML': 'Auth-Authz/saml.md'
       - 'CORS': 'Auth-Authz/cors.md'
 
-    - Swagger:
-      - 'Swagger': 'API-Docum/swagger.md'
+    #- Swagger:
+    #  - 'Swagger': 'API-Docum/swagger.md'
 
-    - Automation Tools:
-      - 'Automation Tools': 'Aut-Tools/aut-types.md'
+    - API Tools:
+      - 'API Tools': 'API-Tools/types.md'
+
+    - Tips & Best Practices:
+      #- 'Intro': 'Tips-Best-Practices/intro.md'
+      - 'Best practices': 'Tips-Best-Practices/best-prac.md'
 
 # Configurations
 theme:
