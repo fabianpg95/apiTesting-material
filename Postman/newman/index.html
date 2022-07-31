@@ -15,7 +15,7 @@
     
     
       
-        <title>Newman - API Testing Material</title>
+        <title>Newman CLI - API Testing Material</title>
       
     
     
@@ -64,6 +64,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#prerequisites" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -95,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Newman
+              Newman CLI
             
           </span>
         </div>
@@ -201,13 +206,15 @@
         
   
   
+    
+  
 
 
   
   
   
     <li class="md-tabs__item">
-      <a href="../collect-envvars/" class="md-tabs__link">
+      <a href="../collect-envvars/" class="md-tabs__link md-tabs__link--active">
         Postman
       </a>
     </li>
@@ -223,7 +230,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../Auth-Authz/authz-types/" class="md-tabs__link">
+      <a href="../../Auth-Authz/authn-authz/" class="md-tabs__link">
         Authn & Authz
       </a>
     </li>
@@ -239,8 +246,8 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../API-Docum/swagger/" class="md-tabs__link">
-        Swagger
+      <a href="../../API-Tools/types/" class="md-tabs__link">
+        API Tools
       </a>
     </li>
   
@@ -255,8 +262,8 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../Aut-Tools/aut-types/" class="md-tabs__link">
-        Automation Tools
+      <a href="../../Tips-Best-Practices/best-prac/" class="md-tabs__link">
+        Tips & Best Practices
       </a>
     </li>
   
@@ -361,7 +368,7 @@
   
     <li class="md-nav__item">
       <a href="../../Fundamentals/history/" class="md-nav__link">
-        History API
+        Portocols API
       </a>
     </li>
   
@@ -416,8 +423,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Fundamentals/api-tools-types/" class="md-nav__link">
-        API Test tools
+      <a href="../../Fundamentals/api-test-cons/" class="md-nav__link">
+        API Tester - considerations
       </a>
     </li>
   
@@ -436,12 +443,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
       
       
       
@@ -506,8 +515,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../authentication/" class="md-nav__link">
-        Authentication
+      <a href="../authorization/" class="md-nav__link">
+        Authorization
       </a>
     </li>
   
@@ -574,38 +583,75 @@
               
   
   
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Newman CLI
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Newman CLI
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    Prerequisites
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#run-newman-cli" class="md-nav__link">
+    Run Newman CLI
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#newman-dashboard-reports" class="md-nav__link">
+    Newman Dashboard reports
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
   
     <li class="md-nav__item">
       <a href="../api-doc/" class="md-nav__link">
         API Doc
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../demo/" class="md-nav__link">
-        Demo
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../tricks-tips/" class="md-nav__link">
-        Tricks and Tips
       </a>
     </li>
   
@@ -652,8 +698,48 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Auth-Authz/authz-types/" class="md-nav__link">
-        Authz types
+      <a href="../../Auth-Authz/authn-authz/" class="md-nav__link">
+        Authn vs Authz
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" type="checkbox" id="__nav_3_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2">
+          Authn
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Authn" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          Authn
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Auth-Authz/Authn/authn/" class="md-nav__link">
+        Authn Intro
       </a>
     </li>
   
@@ -666,9 +752,77 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Auth-Authz/oidc/" class="md-nav__link">
-        OIDC
+      <a href="../../Auth-Authz/Authn/authn-methods/" class="md-nav__link">
+        Authn Methods
       </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3" type="checkbox" id="__nav_3_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3">
+          Authz
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Authz" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_3">
+          <span class="md-nav__icon md-icon"></span>
+          Authz
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Auth-Authz/Authz/authz/" class="md-nav__link">
+        Authz Intro
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Auth-Authz/Authz/authz-methods/" class="md-nav__link">
+        Authz Methods
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
     </li>
   
 
@@ -725,14 +879,14 @@
       
       
         <label class="md-nav__link" for="__nav_4">
-          Swagger
+          API Tools
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="Swagger" data-md-level="1">
+      <nav class="md-nav" aria-label="API Tools" data-md-level="1">
         <label class="md-nav__title" for="__nav_4">
           <span class="md-nav__icon md-icon"></span>
-          Swagger
+          API Tools
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -742,8 +896,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../API-Docum/swagger/" class="md-nav__link">
-        Swagger
+      <a href="../../API-Tools/types/" class="md-nav__link">
+        API Tools
       </a>
     </li>
   
@@ -773,14 +927,14 @@
       
       
         <label class="md-nav__link" for="__nav_5">
-          Automation Tools
+          Tips & Best Practices
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="Automation Tools" data-md-level="1">
+      <nav class="md-nav" aria-label="Tips & Best Practices" data-md-level="1">
         <label class="md-nav__title" for="__nav_5">
           <span class="md-nav__icon md-icon"></span>
-          Automation Tools
+          Tips & Best Practices
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -790,8 +944,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Aut-Tools/aut-types/" class="md-nav__link">
-        Automation Tools
+      <a href="../../Tips-Best-Practices/best-prac/" class="md-nav__link">
+        Best practices
       </a>
     </li>
   
@@ -822,6 +976,35 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    Prerequisites
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#run-newman-cli" class="md-nav__link">
+    Run Newman CLI
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#newman-dashboard-reports" class="md-nav__link">
+    Newman Dashboard reports
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -838,16 +1021,33 @@
 
 
 
-  <h1>Newman</h1>
+  <h1>Newman CLI</h1>
 
-
+<h3 id="prerequisites"><strong>Prerequisites</strong></h3>
+<ol>
+<li>
+<p>Export your collections and environment variables and save them in a folder of your computer.</p>
+</li>
+<li>
+<p>Install newman and htmlextra in your computer.</p>
+</li>
+<li>
+<p>Open your terminal inside the folder you created and run your collection using newman and htmlextra to verify everything is working and the HTML reports with the results were created.</p>
+</li>
+</ol>
+<h3 id="run-newman-cli"><strong>Run Newman CLI</strong></h3>
+<p><img src="../../img/newman-cli.png" alt="newman CLI" width="800" height="190"/></p>
+<hr />
+<h3 id="newman-dashboard-reports"><strong>Newman Dashboard reports</strong></h3>
+<p><img src="../../img/newman-dashboard1.png" alt="Dashboard1" width="800" height="190"/></p>
+<p><img src="../../img/newman-dashboard2.png" alt="Dashboard2" width="800" height="190"/></p>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Last update:
-      2022-07-30
+      2022-07-31
     
   </small>
 </div>
@@ -860,6 +1060,41 @@
       </main>
       
         <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../monitors/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Monitors" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Monitors
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../api-doc/" class="md-footer__link md-footer__link--next" aria-label="Next: API Doc" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              API Doc
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
