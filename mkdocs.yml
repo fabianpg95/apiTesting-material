@@ -31,11 +31,11 @@ nav:
     - Authn & Authz:
       - 'Authn vs Authz': 'Auth-Authz/authn-authz.md'
       - Authn:
-        - 'Authn Intro': 'Auth-Authz/Authn/authn.md'
+       # - 'Authn Intro': 'Auth-Authz/Authn/authn.md'
         - 'Authn Methods': 'Auth-Authz/Authn/authn-methods.md'
       #  - 'Authn considerations': 'Authn/authn-consid.md'
       - Authz:
-        - 'Authz Intro': 'Auth-Authz/Authz/authz.md'
+       # - 'Authz Intro': 'Auth-Authz/Authz/authz.md'
         - 'Authz Methods': 'Auth-Authz/Authz/authz-methods.md'
       #  - 'Authz considerations': 'Authn/authz-consid.md'
       - 'SAML': 'Auth-Authz/saml.md'
