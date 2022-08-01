@@ -2,152 +2,132 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://github.com/fabianpg95/apiTesting-material/API-Docum/swagger/</loc>
-         <lastmod>2022-07-31</lastmod>
+         <lastmod>2022-08-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fabianpg95/apiTesting-material/API-Tools/types/</loc>
-         <lastmod>2022-07-31</lastmod>
+         <lastmod>2022-08-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fabianpg95/apiTesting-material/Auth-Authz/authn-authz/</loc>
-         <lastmod>2022-07-31</lastmod>
+         <lastmod>2022-08-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fabianpg95/apiTesting-material/Auth-Authz/cors/</loc>
-         <lastmod>2022-07-31</lastmod>
+         <lastmod>2022-08-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fabianpg95/apiTesting-material/Auth-Authz/saml/</loc>
-         <lastmod>2022-07-31</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://github.com/fabianpg95/apiTesting-material/Auth-Authz/Authn/authn-consid/</loc>
-         <lastmod>2022-07-31</lastmod>
+         <lastmod>2022-08-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fabianpg95/apiTesting-material/Auth-Authz/Authn/authn-methods/</loc>
-         <lastmod>2022-07-31</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://github.com/fabianpg95/apiTesting-material/Auth-Authz/Authn/authn/</loc>
-         <lastmod>2022-07-31</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://github.com/fabianpg95/apiTesting-material/Auth-Authz/Authz/authz-consid/</loc>
-         <lastmod>2022-07-31</lastmod>
+         <lastmod>2022-08-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fabianpg95/apiTesting-material/Auth-Authz/Authz/authz-methods/</loc>
-         <lastmod>2022-07-31</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://github.com/fabianpg95/apiTesting-material/Auth-Authz/Authz/authz/</loc>
-         <lastmod>2022-07-31</lastmod>
+         <lastmod>2022-08-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fabianpg95/apiTesting-material/Fundamentals/api-test-cons/</loc>
-         <lastmod>2022-07-31</lastmod>
+         <lastmod>2022-08-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fabianpg95/apiTesting-material/Fundamentals/api-test-types/</loc>
-         <lastmod>2022-07-31</lastmod>
+         <lastmod>2022-08-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fabianpg95/apiTesting-material/Fundamentals/history/</loc>
-         <lastmod>2022-07-31</lastmod>
+         <lastmod>2022-08-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fabianpg95/apiTesting-material/Fundamentals/http-methods/</loc>
-         <lastmod>2022-07-31</lastmod>
+         <lastmod>2022-08-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fabianpg95/apiTesting-material/Fundamentals/introduction/</loc>
-         <lastmod>2022-07-31</lastmod>
+         <lastmod>2022-08-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fabianpg95/apiTesting-material/Fundamentals/rest/</loc>
-         <lastmod>2022-07-31</lastmod>
+         <lastmod>2022-08-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fabianpg95/apiTesting-material/Fundamentals/status-codes/</loc>
-         <lastmod>2022-07-31</lastmod>
+         <lastmod>2022-08-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fabianpg95/apiTesting-material/Postman/api-doc/</loc>
-         <lastmod>2022-07-31</lastmod>
+         <lastmod>2022-08-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fabianpg95/apiTesting-material/Postman/authorization/</loc>
-         <lastmod>2022-07-31</lastmod>
+         <lastmod>2022-08-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fabianpg95/apiTesting-material/Postman/body/</loc>
-         <lastmod>2022-07-31</lastmod>
+         <lastmod>2022-08-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fabianpg95/apiTesting-material/Postman/collect-envvars/</loc>
-         <lastmod>2022-07-31</lastmod>
+         <lastmod>2022-08-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fabianpg95/apiTesting-material/Postman/curl/</loc>
-         <lastmod>2022-07-31</lastmod>
+         <lastmod>2022-08-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fabianpg95/apiTesting-material/Postman/headers/</loc>
-         <lastmod>2022-07-31</lastmod>
+         <lastmod>2022-08-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fabianpg95/apiTesting-material/Postman/monitors/</loc>
-         <lastmod>2022-07-31</lastmod>
+         <lastmod>2022-08-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fabianpg95/apiTesting-material/Postman/newman/</loc>
-         <lastmod>2022-07-31</lastmod>
+         <lastmod>2022-08-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fabianpg95/apiTesting-material/Postman/test-scripts/</loc>
-         <lastmod>2022-07-31</lastmod>
+         <lastmod>2022-08-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fabianpg95/apiTesting-material/Postman/tokens/</loc>
-         <lastmod>2022-07-31</lastmod>
+         <lastmod>2022-08-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fabianpg95/apiTesting-material/Tips-Best-Practices/best-prac/</loc>
-         <lastmod>2022-07-31</lastmod>
+         <lastmod>2022-08-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/fabianpg95/apiTesting-material/Tips-Best-Practices/intro/</loc>
-         <lastmod>2022-07-31</lastmod>
+         <lastmod>2022-08-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

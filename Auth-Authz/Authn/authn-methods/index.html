@@ -64,6 +64,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#basic-authentication" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -682,20 +687,6 @@
               
   
   
-  
-    <li class="md-nav__item">
-      <a href="../authn/" class="md-nav__link">
-        Authn Intro
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
     
   
   
@@ -705,9 +696,72 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Authn Methods
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         Authn Methods
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#basic-authentication" class="md-nav__link">
+    Basic Authentication
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#api-keys" class="md-nav__link">
+    API-Keys
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#oauth-20" class="md-nav__link">
+    OAuth (2.0)
+  </a>
+  
+    <nav class="md-nav" aria-label="OAuth (2.0)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#openid-connect" class="md-nav__link">
+    OpenID Connect
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-select-the-right-api-authentication-method" class="md-nav__link">
+    How to Select the Right API Authentication Method
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -746,20 +800,6 @@
           Authz
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../Authz/authz/" class="md-nav__link">
-        Authz Intro
-      </a>
-    </li>
-  
-
-            
           
             
               
@@ -930,6 +970,55 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#basic-authentication" class="md-nav__link">
+    Basic Authentication
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#api-keys" class="md-nav__link">
+    API-Keys
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#oauth-20" class="md-nav__link">
+    OAuth (2.0)
+  </a>
+  
+    <nav class="md-nav" aria-label="OAuth (2.0)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#openid-connect" class="md-nav__link">
+    OpenID Connect
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-select-the-right-api-authentication-method" class="md-nav__link">
+    How to Select the Right API Authentication Method
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -948,17 +1037,46 @@
 
   <h1>Authn Methods</h1>
 
-<p><img src="../../../img/authn-methods.png" alt="Authentication methods" width="800" height="190"/></p>
+<p><img src="../../../img/authn-met.png" alt="Authentication methods" width="800" height="190"/></p>
 <hr />
-<p>Sin contraseña o Passwordless.</p>
-<p>Este es uno de los métodos modernos más prácticos. Un ejemplo de aplicación es el uso de un enlace mágico (magic link). Consiste en que, cada vez que quieras iniciar sesión a un recurso o servicio, se enviará a tu correo electrónico un enlace que te permitirá acceder sin necesidad de contraseña. </p>
-<p>Por redes sociales. </p>
-<p>Sin duda, ya habrás utilizado este método. Varias aplicaciones y servicios te dan como opción iniciar sesión directamente con alguna cuenta social.</p>
-<p>Autenticación API. </p>
-<p>Este es el proceso de certificar la identidad de un usuario que quiera acceder a recursos y/o servicios en el servidor. Para tener en cuenta, alguna de las APIs de autenticación más populares son: autenticación básica por HTTP, de Core (núcleo) API y OAuth.</p>
-<p>Autenticación Biométrica. </p>
-<p>Se vale de las huellas dactilares para validar la identidad del usuario.</p>
+<p>The below explained are the best practices of REST API Authentication methods.</p>
+<h2 id="basic-authentication"><strong>Basic Authentication</strong></h2>
+<p>HTTP Basic Authentication isn't suggested because of its inherent security vulnerabilities.</p>
+<p>This technique doesn't need cookies, session IDs, login pages, and alternative such specialty solutions.</p>
+<div class="highlight"><pre><span></span><code>curl &quot;https://example.com/&quot; \
+-H &quot;Authorization: Basic bXlVczNybkBtZTpteVA0c3N3MHJk&quot;
+</code></pre></div>
+<p><strong>Bearer Authentication</strong></p>
+<p>The bearer token permits access to a precise resource or universal resource locator and presumably could be a cryptic string, sometimes generated by the server in response to a login request.</p>
+<div class="highlight"><pre><span></span><code>Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IlE1QVdrc1dIVmEiLCJ0eXAiOiJKV1QifQ.eyJwaWQiOiJ1cy13ZXN0LTI6ZmQ3NGQ1ZmItNGMzMS00OWYyLWIwNDUtMjVjNmRiMWNiN2IzIiwidWlkIjoiWm1RM05HUTFabUl0TkdNek1TMDBPV1l5TFdJd05EVXRNalZqTm1SaU1XTmlOMkl6Iiwic2lkIjoiYTEyNzlhYWQtZTJjNS00ZGM3LWJjOTYtYTE4ODVkMWZlNWI3Iiwic2RjIjoidXMtd2VzdC0yIiwiYXR5cGUiOiJpZGVudGl0eSIsImR0eXBlIjoiZmlyZXR2IiwidXR5cGUiOiJlbWFpbCIsImRpZCI6InRlc3RpbmdEZXZpZGVJZC1tdnBkc3NvLTE3MDI0ODMxMDQiLCJtdnBkaWQiOiIiLCJ2ZXIiOjIsImVudCI6e30sImV4cCI6MTY5MDE0OTExOCwianRpIjoiNjVlNDRiNmEtZjMwOS00MTIzLWFhNjEtYjRjZjI0MGQ0ZDFlIiwiaWF0IjoxNjU4NjEzMTE4fQ.FegjkNUl9eiDBFH4tm5Z9jKSLwyR2x_TEi16BBQj_axHaC52CaCseSeShqy485bzoNFnxdNR616u_fih_Lp5q25JFHpZxrWdyP4rxxpjXxdr_ErMlbM6Kfl2pIhvKovS0g2Mfe8_jASF8Z8Tkifr2wjO2CtRKfnes6WGqqMON5ByUIbgnUic0QsGDdCGQ-YHoD7RmZ78WTWByOcDntDJN0ksQkEtVroP1Esd4oZEr2akL1zDElM1ftDLO380jMpN_XJmd1AGkUL9b18ERnxQ2KOjJHL4QVHe-DJCzRXSvkUdh-cSP0OapjrK_EV3Qe4HQldjgaEVG9eKERYyU8kJDQ...
+</code></pre></div>
+<h2 id="api-keys"><strong>API-Keys</strong></h2>
+<ul>
+<li>
+<p>This method normally has an expiration date.</p>
+</li>
+<li>
+<p>The problem with this method is that gives access to all operations which API can do (CRUD).</p>
+</li>
+<li>
+<p>API keys identify projects, not users.</p>
+</li>
+</ul>
+<div class="highlight"><pre><span></span><code>FxVxpK4CUiFqNgMFrb854sOh4qXFykra
+</code></pre></div>
+<h2 id="oauth-20"><strong>OAuth (2.0)</strong></h2>
+<p>OAuth2 combines Authentication and Authorization to permit additional subtle scope and is designed to grant access to resources set like:</p>
+<ul>
+<li>remote API</li>
+<li>user's data</li>
+</ul>
+<p>The previous versions of this specification, OAuth 1.0 and 1.0a, were far more difficult than OAuth 2.0</p>
+<h4 id="openid-connect"><strong>OpenID Connect</strong></h4>
+<p>OpenID Connect is a simple identity layer on top of the OAuth 2.0 protocol, which allows computing clients to verify the identity of an end-user based on the authentication performed by an authorization server, as well as to obtain basic profile information about the end-user in an interoperable and REST-like manner.</p>
 <hr />
+<hr />
+<h2 id="how-to-select-the-right-api-authentication-method"><strong>How to Select the Right API Authentication Method</strong></h2>
+<p>Selecting the authentication method that is best for a particular API comes down to the level of security that’s required to validate clients versus the ease of implementation and maintenance.</p>
 
   <hr>
 <div class="md-source-file">
@@ -982,7 +1100,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../authn/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Authn Intro" rel="prev">
+        <a href="../../authn-authz/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Authn vs Authz" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -991,20 +1109,20 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              Authn Intro
+              Authn vs Authz
             </div>
           </div>
         </a>
       
       
         
-        <a href="../../Authz/authz/" class="md-footer__link md-footer__link--next" aria-label="Next: Authz Intro" rel="next">
+        <a href="../../Authz/authz-methods/" class="md-footer__link md-footer__link--next" aria-label="Next: Authz Methods" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Authz Intro
+              Authz Methods
             </div>
           </div>
           <div class="md-footer__button md-icon">
