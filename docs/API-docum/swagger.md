@@ -6,3 +6,5 @@ Is used to describe the structure of your API’s, this includes:
 - [x] Input & Output paramethers
  
 Swagger UI render swagger specification (JSON or XML) to ---→ Interactive API & documented
+
+This is just an example
