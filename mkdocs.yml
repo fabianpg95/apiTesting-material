@@ -51,6 +51,11 @@ nav:
       #- 'Intro': 'Tips-Best-Practices/intro.md'
       - 'Best practices': 'Tips-Best-Practices/best-prac.md'
 
+    - Contribute Doc: 
+      - 'Installation': 'Contribute-Doc/install-mkdocs.md'
+      - 'Contribute': 'Contribute-Doc/contribute-doc.md'
+      - 'References': 'Contribute-Doc/mkdocs-refs.md'
+
 # Configurations
 theme:
   name: "material"
